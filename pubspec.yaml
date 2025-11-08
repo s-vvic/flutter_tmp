@@ -18,6 +18,16 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
+# ▼▼▼▼▼▼▼▼▼▼ 이 부분을 추가하세요 ▼▼▼▼▼▼▼▼▼▼
+
+# (가장 중요) 배포될 웹사이트의 전체 주소
+homepage: https://s_vvic.github.io/flutter_tmp/
+
+# 소스 코드가 있는 GitHub 저장소 주소
+repository: https://github.com/s_vvic/flutter_tmp
+
+# ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
 environment:
   sdk: ^3.9.2
 
@@ -34,6 +44,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  gh_pages: ^0.1.1
 
 dev_dependencies:
   flutter_test:
