@@ -1,0 +1,9 @@
+{
+  "name": "flutter_tmp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "flutter build web --base-href=\"/flutter_tmp/\"",
+    "deploy:gh": "dart run gh_pages build/web",
+    "deploy": "npm run build && npm run deploy:gh"
+  }
+}
