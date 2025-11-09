@@ -30,6 +30,10 @@ android {
         versionName = flutter.versionName
     }
 
+    // ▼▼▼▼▼ 이 줄을 추가하세요 ▼▼▼▼▼
+    ndkVersion = "29.0.14206865"
+    // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
